@@ -1419,6 +1419,30 @@ header .logo a {
 	color: #cc005f;
 }
 
+.project-options {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0 0 0 0;
+	padding: 0;	
+	text-align: center;
+
+}
+.project-options li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.project-options li a, .project-options li a:visited {
+	color: #000000;
+}
+.project-options li a:hover, .project-options li a:focus {
+	color: #cc005f;
+}
+
 /**
  * responsive:
  * Intro
@@ -1917,8 +1941,9 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.4rem;
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 }
+
 .popup-modal .categories {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
